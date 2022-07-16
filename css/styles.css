@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 100px 0 50px;
+}
+h2{
+  margin: 50px 0 30px;
+}
+p {
+  line-height: 2;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+a{
+  padding: 10px 0;
+  text-decoration: none;
+  font-size:1.2rem;
+}
+
+/* title section */
+#title {
+  background-color: #66BFBF;
+  font-family: "Montserrat";
+  color: #fff;
+}
+.KFS-image{
+  border-radius: 100%;
+  position:relative;
+  top:100px;
+  left:100px;
+
+
+}
+.nav-item{
+  padding:0 10px;
+}
+.list-group-item-action:hover {
+  background-color: #78938A;
+  color:#fff;
+}
+
+.welcome-screen {
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+}
+
+/* office section */
+#office {
+  background-color: #fff;
+}
+.dropdown{
+  font-size:2rem;
+}
+/* bod contact */
+#contact-bod{
+  background-color: #66BFBF;
+  color:#fff;
+
+}
+@media (max-width:990px){
+.KFS-image{
+  visibility: hidden;
+}
+
+}
+.office-item{
+  margin:10px 0;
+
+}
+.card-header{
+    background-color: #377D71;
+    text-align: center;
+    color:#fff;
+
+}
+/* Australia page steps-sub heading */
+.aus-processing{
+  font-style: italic;
+  line-height: 1;
+  color:#FF0063;
+}
+#resources{
+    background-color: #66BFBF;
+    color:#fff;
+}
+
+/* footer */
+#contact-bod{
+  text-align: center;
+}
+.kfs-footer{
+  text-align: center;
+}
+.social-icon{
+  color:#fff;
+  padding: 10px;
+}
