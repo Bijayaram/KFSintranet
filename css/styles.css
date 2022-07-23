@@ -95,7 +95,13 @@ a {
   line-height: 1;
   color: #FF0063;
 }
-
+.use-link{
+  line-height: 1;
+  margin: 0;
+  text-decoration: underline;
+  
+  
+}
 #resources {
   background-color: #66BFBF;
   color: #fff;
@@ -114,6 +120,7 @@ a {
   color: #fff;
   padding: 10px;
 }
+
 @media all and (max-width:990px) {
 
   h1 {
@@ -129,6 +136,5 @@ a {
   .KFS-image{
     visibility: hidden;
   }
-
 
 }
