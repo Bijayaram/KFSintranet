@@ -99,14 +99,29 @@ a {
   line-height: 1;
   margin: 0;
   text-decoration: underline;
-  
-  
+
+}
+/* Cost Estimator */
+.labels{
+  margin:0;
+  display:inline;
 }
 #resources {
   background-color: #66BFBF;
   color: #fff;
 }
-
+.input-fill{
+  width:15%;
+}
+.unit{
+  margin:5px 5px;
+}
+.estimate-field{
+  margin:5px 5px;
+}
+.fill{
+  margin:5px 5px;
+}
 /* footer */
 #contact-bod {
   text-align: center;
