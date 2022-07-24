@@ -1,7 +1,7 @@
 $(".estimate").click(function(){
   var fee = (parseFloat($("#course-fee").val()))/2;
   var exchangeRate = parseFloat($(".exchange-rate").val());
-  var scholarship = parseFloat($(".scholarship").val());
+  var scholarship = parseFloat($(".scholarship").val())*-1;
   var medicalAUD = 1500;
   var flightCost = 2000;
   var immiAUD = 638;
