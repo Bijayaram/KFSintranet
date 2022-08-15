@@ -101,6 +101,9 @@ a {
   text-decoration: underline;
 
 }
+.bodcolor{
+  background-color:#FBC5C5;
+}
 /* Cost Estimator */
 .labels{
   margin:0;
