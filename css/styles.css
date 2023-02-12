@@ -3,7 +3,6 @@ body {
   padding: 0;
 }
 
-
 h1 {
   text-align: center;
   line-height: 1.5;
@@ -29,7 +28,7 @@ a {
 
 /* title section */
 #title {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   font-family: "Montserrat";
   color: #fff;
 }
@@ -44,11 +43,11 @@ a {
 .nav-item {
   padding: 10px;
 }
-.nav-link:hover{
-  color:#fff;
+.nav-link:hover {
+  color: #fff;
 }
 .list-group-item-action:hover {
-  background-color: #78938A;
+  background-color: #78938a;
   color: #fff;
 }
 
@@ -62,21 +61,20 @@ a {
 
 /* office section */
 #office {
-  background-color: #FDEEDC;
-
+  background-color: #fdeedc;
 }
 
 .dropdown {
   font-size: 2rem;
 }
 /* Office Branch */
-#office-branch{
-  background-color: #66BFBF;
+#office-branch {
+  background-color: #66bfbf;
   color: #fff;
 }
 /* bod contact */
 #contact-bod {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   color: #fff;
 }
 
@@ -85,7 +83,7 @@ a {
 }
 
 .card-header {
-  background-color: #377D71;
+  background-color: #377d71;
   text-align: center;
   color: #fff;
 }
@@ -94,37 +92,36 @@ a {
 .aus-processing {
   font-style: italic;
   line-height: 1;
-  color: #FF0063;
+  color: #ff0063;
 }
-.use-link{
+.use-link {
   line-height: 1;
   margin: 0;
   text-decoration: underline;
-
 }
-.bodcolor{
-  background-color:#F5C7A9;
+.bodcolor {
+  background-color: #f5c7a9;
 }
 /* Cost Estimator */
-.labels{
-  margin:0;
-  display:inline;
+.labels {
+  margin: 0;
+  display: inline;
 }
 #resources {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   color: #fff;
 }
-.input-fill{
-  width:15%;
+.input-fill {
+  width: 15%;
 }
-.unit{
-  margin:5px 5px;
+.unit {
+  margin: 5px 5px;
 }
-.estimate-field{
-  margin:5px 5px;
+.estimate-field {
+  margin: 5px 5px;
 }
-.fill{
-  margin:5px 5px;
+.fill {
+  margin: 5px 5px;
 }
 /* footer */
 #contact-bod {
@@ -140,20 +137,49 @@ a {
   padding: 10px;
 }
 
-@media all and (max-width:990px) {
-
+@media all and (max-width: 990px) {
   h1 {
-    font-size:3rem;
+    font-size: 3rem;
   }
-  h2{
-    font-size:2.5rem;
+  h2 {
+    font-size: 2.5rem;
     margin: 0;
   }
-  .welcome-screen{
+  .welcome-screen {
     font-size: 1rem;
   }
-  .KFS-image{
+  .KFS-image {
     visibility: hidden;
   }
+}
+.Australia-defination {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 100%;
+  background-color: #66bfbf;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  z-index: 10;
+}
 
+.AustraliaPC {
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.pos {
+  position: relative;
+}
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.remaining {
+  color: rgb(238, 215, 141);
+  font-size: larger;
+  font-weight: bold;
 }
